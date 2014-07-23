@@ -19,6 +19,7 @@ executable dsl2ffi
   main-is:             Main.hs
   -- other-modules:       
   other-extensions:    GADTs, TemplateHaskell, OverloadedStrings
-  build-depends:       base >=4.6 && <4.7, tagged >=0.7 && <0.8, process >=1.1 && <1.2, template-haskell >=2.8 && <2.9
+  build-depends:       base >=4.6 && <4.7, process >=1.1 && <1.2, template-haskell >=2.8 && <2.9
   -- hs-source-dirs:      
   default-language:    Haskell2010
+
